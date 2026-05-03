@@ -1,2 +1,12 @@
-# my-portfolio
-A modern responsive portfolio website built using HTML, CSS, and JavaScript to showcase my skills and projects as an aspiring web developer.
+# My Portfolio Website
+
+This is my personal portfolio website built using HTML, CSS, and JavaScript.
+
+## Features
+- Responsive design
+- Projects showcase
+- Contact section
+- CV download
+
+## Author
+Cynthia Sintoiya
