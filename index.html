@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tech Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <h1 class="logo">MyPortfolio</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <h2>Hello, I'm <span>cynthiabrave</span></h2>
+        <p>Aspiring Web Developer | Remote Freelancer</p>
+
+        <!-- IMAGE ADDED HERE (NEW PART ONLY) -->
+        <img src="image/profile image.png" alt="My Profile Image" style="width:180px; border-radius:50%; margin-top:20px;">
+        <!-- IMAGE -->
+<img src="profile.jpg" alt="My Profile Image" style="width:180px; border-radius:50%; margin-top:20px;">
+
+<!-- NEW CV DOWNLOAD BUTTON -->
+<a href="cv.pdf" download>
+    <button>Download CV</button>
+</a>
+
+        <button onclick="scrollToSection('contact')">Hire Me</button>
+    </section>
+
+    <!-- ABOUT -->
+    <!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+
+    <div class="about-box">
+    <div class="about-text">
+        I am a passionate aspiring web developer currently focused on learning 
+        modern front-end technologies such as HTML, CSS, and JavaScript.
+    </div>
+
+    <div class="about-hover">
+        I am actively improving my skills through hands-on projects, practicing 
+        real-world website designs, and building job-ready web development experience.
+    </div>
+</div>
+
+    <!-- DISPLAY BOX (NEW FEATURE) -->
+    <div class="about-highlight">
+        <h3>What I’m Working On</h3>
+        <p>
+            🌐 Building responsive websites  
+            💻 Learning JavaScript for interactivity  
+            🎯 Practicing real-world UI/UX design  
+            🚀 Preparing for remote web development jobs  
+        </p>
+    </div>
+</section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills">
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>JavaScript</div>
+            <div>Git & GitHub</div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>Portfolio Website</h3>
+                <p>A personal website to showcase my skills.</p>
+            </div>
+
+            <div class="card">
+                <h3>Business Website</h3>
+                <p>A website for a small business.</p>
+            </div>
+
+            <div class="card">
+                <h3>Landing Page</h3>
+                <p>A modern responsive landing page.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: kiratisintoya@gmail.com</p>
+        <div class="contact-info">
+    <p><i class="fas fa-phone"></i> +254 0115562174 </p>
+    <p><i class="fas fa-envelope"></i> kiratisintoya@gmail.com</p>
+</div>
+        <button onclick="showMessage()">Send Message</button>
+    </section>
+
+    <!-- SOCIAL MEDIA ICONS -->
+<div class="social-icons">
+    
+    <a href="https://twitter.com" target="_blank">
+        <i class="fab fa-twitter"></i>
+    </a>
+
+    <a href="https://facebook.com" target="_blank">
+        <i class="fab fa-facebook"></i>
+    </a>
+
+    <a href="https://instagram.com" target="_blank">
+        <i class="fab fa-instagram"></i>
+    </a>
+
+    <a href="https://tiktok.com" target="_blank">
+        <i class="fab fa-tiktok"></i>
+    </a>
+
+    <a href="mailto:kiratisintoya@gmail.com">
+        <i class="fas fa-envelope"></i>
+    </a>
+
+</div>
+
+    <footer>
+        <p>© 2026 My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
